@@ -561,6 +561,25 @@ left: 96px;
     display: none;
 }
 
+.block {
+    display: block;
+}
+
+.burger-slide {
+    position: absolute;
+    
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.disp {
+    display: none;
+}
+
 @media (max-width: 1500px) {
     .galary-content{
         display: block;
@@ -686,6 +705,18 @@ left: 96px;
 
     .number-item{
         font-size: 23px;
+    }
+}
+
+@media(max-width: 430px){
+    .card{
+        width: 95%;
+    }
+}
+
+@media(max-width: 414px){
+    .cook-width{
+        width: 100%;
     }
 }
 
